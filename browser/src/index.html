@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -10,9 +10,17 @@
     <header class="header">
       <h1>c4 - Connect Four</h1>
     </header>
+    <img id="imgP1" width="49.2" height="73.2">
+    <img id="imgP2" width="49.2" height="73.2">
+    <button id="btnP1">Player 1 Image</button>
+    <input type="file" id="inputP1" width="48" height="48" style="display: none;">
+    <br>
+    <button id="btnP2">Player 2 Image</button>
+    <input type="file" id="inputP2" width="48" height="48" style="display: none;">
+    
     <section class="section">
       <div class="section-message"></div>
-      <canvas class="section-canvas"></canvas>
+      <canvas id="canvasBoard" class="section-canvas"></canvas>
     </section>
 
     <div class="mode">

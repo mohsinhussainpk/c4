@@ -4,6 +4,9 @@ import * as Game from './game'
 import { Board } from './board'
 import './style.css'
 
+document.getElementById('btnP1').addEventListener('click', () => {document.getElementById('inputP1').click();})
+document.getElementById('btnP2').addEventListener('click', () => {document.getElementById('inputP2').click();})
+
 document.addEventListener('DOMContentLoaded', () => {
   const canvas = document.querySelector('canvas')
   if (!canvas) {
